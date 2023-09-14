@@ -41,14 +41,14 @@ const unclesList = [
 const parents = [
   {
     name: "Mohd Ehteshamul Haque (Juhi)",
-    relationship: "Father",
+    relationship: "Abbu",
     education: "Gradutated from L.S. Collage, Muzaffarpur.",
     Profession:
       "Working in TT Global Indian Branch (Taj Computer Solution pvt ltd, N.Delhi).",
   },
   {
     name: "Nikhat Parween",
-    relationship: "Mother",
+    relationship: "Ammi",
     education: "Intermediate.",
     Profession: "House Wife.",
   },
@@ -94,7 +94,7 @@ const Skills = () => {
             </div>
             <div className="child-member-card">
               <h4 className="p-text">
-                <span>Sister: </span>Darakhshan Nikhat (Nishat)
+                <span>Aapi: </span>Darakhshan Nikhat (Nishat)
               </h4>
               <p className="p-text">
                 <span>Married to: </span>Tausif Alam, Parwaha, Sitamarhi, Bihar.

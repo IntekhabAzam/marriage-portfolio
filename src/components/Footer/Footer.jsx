@@ -32,7 +32,18 @@ const Footer = () => {
             rel="noreferrer"
             className="p-text"
           >
-            9999585966
+            9999585966 (Abbu)
+          </a>
+        </div>
+        <div className="app__footer-card">
+          <img src={images.whatsapp} alt="phone" />
+          <a
+            href="https://api.whatsapp.com/send?phone=8510094605"
+            target="_blank"
+            rel="noreferrer"
+            className="p-text"
+          >
+            8510094605 (My number)
           </a>
         </div>
       </div>
