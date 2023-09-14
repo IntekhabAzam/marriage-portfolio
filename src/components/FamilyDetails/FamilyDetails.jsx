@@ -97,6 +97,9 @@ const Skills = () => {
                 <span>Aapi: </span>Darakhshan Nikhat (Nishat)
               </h4>
               <p className="p-text">
+                <span>Education: </span>B.Com, MDDM College, Muzaffarpur.
+              </p>
+              <p className="p-text">
                 <span>Married to: </span>Tausif Alam, Parwaha, Sitamarhi, Bihar.
               </p>
               <p className="p-text">
@@ -134,7 +137,8 @@ const Skills = () => {
                 <span>Nana: </span>Abul Kalam Azad
               </h4>
               <p className="p-text">
-                Retired Government officer from Bihar Irrigation department, Samastipur division.
+                Retired Government officer from Bihar Irrigation department,
+                Samastipur division.
               </p>
               <p className="p-text">
                 <span>Address: </span>Vill-Madhuban, Bajpatti, Sitmarhi, Bihar.
