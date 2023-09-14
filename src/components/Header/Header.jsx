@@ -32,7 +32,7 @@ const Header = () => {
             <h3 className="p-text">More About Me</h3>
             <div className="physical">
               <p className="p-text">
-                <span>DOB: </span>07/05/1997
+                <span>DOB: </span>07-05-1997
               </p>
               <p className="p-text">
                 <span>Height: </span>5'6"
