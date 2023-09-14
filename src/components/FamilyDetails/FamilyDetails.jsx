@@ -7,34 +7,50 @@ import "./FamilyDetails.scss";
 const mamuList = [
   {
     name: "Fakhre Mateen",
-    education: "B.Tech in Civil Engineering, Jami Millia Islamia, New Delhi",
-    workAt: "Senior Project Engineer",
+    education: "B.Tech in Civil Engineering, Jami Millia Islamia, New Delhi.",
+    Profession: "Senior Project Engineer, currently in Mongolia.",
   },
   {
     name: "Fakhre Mubeen",
-    education: "B.Tech in Civil Engineering, Jami Millia Islamia, New Delhi",
-    workAt: "Senior Project Engineer, KEO International Consultant, Qatar.",
+    education: "B.Tech in Civil Engineering, Jami Millia Islamia, New Delhi.",
+    Profession: "Senior Project Engineer, KEO International Consultant, Qatar.",
   },
 ];
 
 const unclesList = [
   {
     name: "Mohd Asrarul Haque",
-    education: "Graduate",
-    workAt: "Business, Mumbai",
+    education: "Graduate.",
+    Profession: "Business in Mumbai.",
   },
   {
     name: "Mohd Ziaul Haque",
     education:
-      "B.Tech in Mechanical Engineering, Jamia Millia Islamia, New Delhi",
-    workAt:
+      "B.Tech in Mechanical Engineering, Jamia Millia Islamia, New Delhi.",
+    Profession:
       "Tasnee Petrochemical, Al-Jubail, Saudi Arabia as a Mechanical Engineer.",
   },
   {
     name: "Mohd Ashabul Haque",
-    education: "M.A. in Arabic from Jamia Millia Islamia",
-    workAt:
+    education: "M.A. in Arabic from Jamia Millia Islamia.",
+    Profession:
       "Wholesale Business of Laptop & Desktop named Computer's World in New Delhi.",
+  },
+];
+
+const parents = [
+  {
+    name: "Mohd Ehteshamul Haque (Juhi)",
+    relationship: "Father",
+    education: "Gradutated from L.S. Collage, Muzaffarpur.",
+    Profession:
+      "Working in TT Global Indian Branch (Taj Computer Solution pvt ltd, N.Delhi).",
+  },
+  {
+    name: "Nikhat Parween",
+    relationship: "Mother",
+    education: "Intermediate.",
+    Profession: "House Wife.",
   },
 ];
 
@@ -59,16 +75,33 @@ const Skills = () => {
               </p>
             </div>
             <div className="child-member-card">
+              {parents.map((parent, index) => (
+                <div className="parentCard">
+                  <h4 className="p-text">
+                    <span>{parent.relationship}: </span>
+                    {parent.name}
+                  </h4>
+                  <p className="p-text">
+                    <span>Education: </span>
+                    {parent.education}
+                  </p>
+                  <p className="p-text">
+                    <span>Profession: </span>
+                    {parent.Profession}
+                  </p>
+                </div>
+              ))}
+            </div>
+            <div className="child-member-card">
               <h4 className="p-text">
-                <span>Father: </span>Mohd Ehteshamul Haque
+                <span>Sister: </span>Darakhshan Nikhat (Nishat)
               </h4>
               <p className="p-text">
-                <span>Education: </span>Gradutated from L.S. Collage,
-                Muzaffarpur
+                <span>Married to: </span>Tausif Alam, Parwaha, Sitamarhi, Bihar.
               </p>
               <p className="p-text">
-                <span>Work at: </span>MNC IT Company, TT Global-Indian Branch
-                Name-Taj Computer Solution pvt ltd, N.Delhi
+                <span>Profession: </span>HPCL Rajasthan Refinery Limited as
+                Electrical Engineer.
               </p>
             </div>
             <div className="child-member-card">
@@ -81,8 +114,8 @@ const Skills = () => {
                     {uncle.education}
                   </p>
                   <p className="p-text">
-                    <span>Work at: </span>
-                    {uncle.workAt}
+                    <span>Profession: </span>
+                    {uncle.Profession}
                   </p>
                 </div>
               ))}
@@ -101,10 +134,10 @@ const Skills = () => {
                 <span>Nana: </span>Abul Kalam Azad
               </h4>
               <p className="p-text">
-                Retired Government officer from Bihar Irrigation department
+                Retired Government officer from Bihar Irrigation department, Samastipur division.
               </p>
               <p className="p-text">
-                <span>Address: </span>Madhuban Bajpatti, Sitmarhi.
+                <span>Address: </span>Vill-Madhuban, Bajpatti, Sitmarhi, Bihar.
               </p>
             </div>
             <div className="child-member-card">
@@ -117,8 +150,8 @@ const Skills = () => {
                     {uncle.education}
                   </p>
                   <p className="p-text">
-                    <span>Work at: </span>
-                    {uncle.workAt}
+                    <span>Profession: </span>
+                    {uncle.Profession}
                   </p>
                 </div>
               ))}

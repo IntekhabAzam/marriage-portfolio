@@ -10,7 +10,7 @@ const experienceList = [
     company: "Flipkart",
     title: "SDE-UI | 24 April, 2023 - Present",
     descLine1:
-      "Working on frontent optimization and new features addition in Flipkart mobile and web application",
+      "Working on frontent optimization and new features addition in Flipkart mobile and web application.",
     descLine2:
       "collaborate with a team of skilled developers, designers, and product managers to translate wireframes and mockups into fully functional features.",
     descLine3: "Tech stack: React Native, React, Javascript, Typescript",
