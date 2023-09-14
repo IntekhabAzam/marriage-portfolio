@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/marriage-portfolio/static/css/main.84ec9023.css",
-    "main.js": "/marriage-portfolio/static/js/main.c60412a6.js",
+    "main.js": "/marriage-portfolio/static/js/main.5e70efe3.js",
     "static/media/bgIMG.png": "/marriage-portfolio/static/media/bgIMG.c39101e520e2997fc6d4.png",
     "static/media/Jamia_Millia_Islamia.png": "/marriage-portfolio/static/media/Jamia_Millia_Islamia.21dabbd413adcc018de1.png",
     "static/media/header.png": "/marriage-portfolio/static/media/header.7c73796a6d58791972d1.png",
@@ -10,10 +10,10 @@
     "index.html": "/marriage-portfolio/index.html",
     "static/media/circle.svg": "/marriage-portfolio/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
     "main.84ec9023.css.map": "/marriage-portfolio/static/css/main.84ec9023.css.map",
-    "main.c60412a6.js.map": "/marriage-portfolio/static/js/main.c60412a6.js.map"
+    "main.5e70efe3.js.map": "/marriage-portfolio/static/js/main.5e70efe3.js.map"
   },
   "entrypoints": [
     "static/css/main.84ec9023.css",
-    "static/js/main.c60412a6.js"
+    "static/js/main.5e70efe3.js"
   ]
 }
