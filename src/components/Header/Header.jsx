@@ -24,7 +24,7 @@ const Header = () => {
               having more than 2 years of experience in this domain.
             </p>
             <p className="p-text">
-              I am consistently endeavoring to integrate and learn Islamic teachings and
+              I am consistently endeavoring to learn and integrate Islamic teachings and
               values into both my professional and personal day-to-day activities and would love to see these qualities in spouse.
             </p>
           </div>
