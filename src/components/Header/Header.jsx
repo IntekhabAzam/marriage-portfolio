@@ -29,7 +29,7 @@ const Header = () => {
             </p>
           </div>
           <div className="tag-cmp">
-            <h3 className="p-text">More About Me</h3>
+            <h3 className="p-text">More About Myself</h3>
             <div className="physical">
               <p className="p-text">
                 <span>DOB: </span>07-05-1997
