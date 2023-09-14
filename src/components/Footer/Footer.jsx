@@ -9,7 +9,7 @@ const Footer = () => {
     <>
       <div className="app__footer-heading">
         <p className="p-text">Get In Touch</p>
-        <h2 className="head-text">Contact Me</h2>
+        <h2 className="head-text">Contact Us</h2>
       </div>
 
       <div className="app__footer-cards">

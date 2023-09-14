@@ -13,7 +13,7 @@ const Header = () => {
       >
         <div className="app__header-badge">
           <div className="badge-cmp">
-            <p className="p-text">Hello, I am</p>
+            <p className="p-text">Assalamualaykum, I am</p>
             <h1 className="head-text" style={{ textAlign: "start" }}>
               Intekhab Azam
             </h1>
@@ -23,6 +23,10 @@ const Header = () => {
               I am currently working as a Software Engineer - UI in Flipkart and
               having more than 2 years of experience in this domain.
             </p>
+            <p className="p-text">
+              I am consistently endeavoring to integrate and learn Islamic teachings and
+              values into both my professional and personal day-to-day activities and would love to see these qualities in spouse.
+            </p>
           </div>
           <div className="tag-cmp">
             <h3 className="p-text">More About Me</h3>
@@ -31,7 +35,7 @@ const Header = () => {
                 <span>DOB: </span>07/05/1997
               </p>
               <p className="p-text">
-                <span>Height: </span>5'7"
+                <span>Height: </span>5'6"
               </p>
               <p className="p-text">
                 <span>Complexion: </span>Fair
