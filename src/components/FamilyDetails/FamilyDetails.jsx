@@ -44,7 +44,7 @@ const parents = [
     relationship: "Abbu",
     education: "Gradutated from L.S. Collage, Muzaffarpur.",
     Profession:
-      "Working in MNC IT company TT Global Indian Branch - Taj Computer Solution pvt ltd, N.Delhi.",
+      "Working in MNC IT company TT Global India Branch - Taj Computer Solution pvt ltd, N.Delhi.",
   },
   {
     name: "Nikhat Parween",
