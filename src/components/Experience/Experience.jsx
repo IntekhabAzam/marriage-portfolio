@@ -57,7 +57,7 @@ const Experience = () => {
   return (
     <>
       <h2 className="head-text">
-        <span>Education</span> & Experience
+        <span>Education</span> | Experience
       </h2>
 
       <div className="app__skills-container">

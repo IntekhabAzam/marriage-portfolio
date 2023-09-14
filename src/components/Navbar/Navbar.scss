@@ -7,4 +7,12 @@
   position: fixed;
   z-index: 2;
   padding: 1rem 2rem;
+
+  .header-image {
+    height: 50px;
+
+    @media screen and (max-width: 900px) {
+      height: 40px;
+    }
+  }
 }

@@ -21,7 +21,7 @@ const Header = () => {
           <div className="tag-cmp">
             <p className="p-text">
               I am currently working as a Software Engineer - UI in Flipkart and
-              having more than 2 years of experience in this domain
+              having more than 2 years of experience in this domain.
             </p>
           </div>
           <div className="tag-cmp">
