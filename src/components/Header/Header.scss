@@ -66,5 +66,9 @@
 
   .tag-cmp {
     margin-top: 3rem;
+
+    @media screen and (max-width: 900px) {
+        margin-top: 2rem;
+    }
   }
 }
