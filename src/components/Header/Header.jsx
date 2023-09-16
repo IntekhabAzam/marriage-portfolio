@@ -43,6 +43,12 @@ const Header = () => {
               <p className="p-text">
                 <span>Personality: </span>Normal
               </p>
+              <p className="p-text">
+                <span>My Present Address: </span>Door No-16, 4th Cross, Near HAL Main Gate, Annasandrapalya Extension, Vimanapura, Bengaluru, Karnataka - 560017.
+              </p>
+              <p className="p-text">
+                <span>Parents Present Address: </span>A-13, Amber Apartment, Flat No-201, Jogabai Extn., Jamia Nagar, New Delhi - 110025.
+              </p>
             </div>
           </div>
         </div>
