@@ -8,7 +8,7 @@ const mamuList = [
   {
     name: "Fakhre Mateen",
     education: "B.Tech in Civil Engineering, Jami Millia Islamia, New Delhi.",
-    Profession: "Senior Project Engineer, currently in Mongolia.",
+    Profession: "Senior Project Engineer, currently working in Mumbai.",
   },
   {
     name: "Fakhre Mubeen",

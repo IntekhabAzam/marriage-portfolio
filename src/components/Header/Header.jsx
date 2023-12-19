@@ -35,10 +35,10 @@ const Header = () => {
                 <span>DOB: </span>07-05-1997
               </p>
               <p className="p-text">
-                <span>Height: </span>5'7"
+                <span>Height: </span>5'6"
               </p>
               <p className="p-text">
-                <span>Complexion: </span>Fair
+                <span>Complexion: </span>Wheatish
               </p>
               <p className="p-text">
                 <span>Personality: </span>Normal
