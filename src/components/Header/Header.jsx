@@ -20,12 +20,13 @@ const Header = () => {
           </div>
           <div className="tag-cmp">
             <p className="p-text">
-              I am currently working as a Software Engineer - UI in Flipkart and
-              having more than 2 years of experience in this domain.
+              I am currently working as a Software Engineer I - UI in Flipkart
+              and having more than 3 years of experience in this domain.
             </p>
             <p className="p-text">
-              I am consistently endeavoring to learn and integrate Islamic teachings and
-              values into both my professional and personal day-to-day activities and would love to see these qualities in spouse.
+              I continuously work on integrating Islamic teachings and values
+              into both my professional and personal life. I am looking for a
+              spouse who shares a similar commitment.
             </p>
           </div>
           <div className="tag-cmp">
@@ -44,10 +45,13 @@ const Header = () => {
                 <span>Personality: </span>Normal
               </p>
               <p className="p-text">
-                <span>My Present Address: </span>Door No-16, 4th Cross, Near HAL Main Gate, Annasandrapalya Extension, Vimanapura, Bengaluru, Karnataka - 560017.
+                <span>My Present Address: </span>Door No-16, 4th Cross, Near HAL
+                Main Gate, Annasandrapalya Extension, Vimanapura, Bengaluru,
+                Karnataka - 560017.
               </p>
               <p className="p-text">
-                <span>Parents Present Address: </span>A-13, Amber Apartment, Flat No-201, Jogabai Extn., Jamia Nagar, New Delhi - 110025.
+                <span>Parents Present Address: </span>A-13, Amber Apartment,
+                Flat No-201, Jogabai Extn., Jamia Nagar, New Delhi - 110025.
               </p>
             </div>
           </div>

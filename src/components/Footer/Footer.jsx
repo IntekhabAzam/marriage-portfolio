@@ -13,17 +13,6 @@ const Footer = () => {
       </div>
 
       <div className="app__footer-cards">
-        <div className="app__footer-card ">
-          <img src={images.email} alt="email" />
-          <a
-            href="mailto:iazam0910@gmail.com"
-            target="_blank"
-            rel="noreferrer"
-            className="p-text"
-          >
-            iazam0910@gmail.com
-          </a>
-        </div>
         <div className="app__footer-card">
           <img src={images.whatsapp} alt="phone" />
           <a
@@ -44,6 +33,17 @@ const Footer = () => {
             className="p-text"
           >
             8510094605 (My number)
+          </a>
+        </div>
+        <div className="app__footer-card ">
+          <img src={images.email} alt="email" />
+          <a
+            href="mailto:iazam0910@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+            className="p-text"
+          >
+            iazam0910@gmail.com
           </a>
         </div>
       </div>

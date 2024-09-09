@@ -8,21 +8,18 @@ import "./Experience.scss";
 const experienceList = [
   {
     company: "Flipkart",
-    title: "SDE-UI | 24 April, 2023 - Present",
-    descLine1:
-      "Working on frontent optimization and new features addition in Flipkart mobile and web application.",
-    descLine2:
-      "collaborate with a team of skilled developers, designers, and product managers to translate wireframes and mockups into fully functional features.",
-    descLine3: "Tech stack: React Native, React, Javascript, Typescript",
+    title: "Software Engineer I - UI | April, 2023 - Present",
+    descriptions: [
+      "Currently working in the Machine Learning Platform team to build a UI platform aimed at showcasing their products and services.",
+      "Previously, I worked with different teams at Flipkart, focusing on enhancing fintech services through the addition of new features to mobile and web applications.",
+    ],
   },
   {
     company: "Wipro Limited",
-    title: "Project Engineer | 26 July, 2021 - 2 Jan, 2023",
-    descLine1:
-      "Application Development, Maintenance and Production Support for Client - British Petroleum(bp).",
-    descLine2:
-      "Work on application Front-end enhancement and created more interactive user interface using HTML, CSS, JavaScript.",
-    descLine3: "Code optimization for better performance of the application.",
+    title: "Project Engineer | July, 2021 - Jan, 2023",
+    descriptions: [
+      "Joined Wipro via campus placement, where I was involved in application development, maintenance, and production support for the client British Petroleum (BP).",
+    ],
   },
 ];
 
@@ -31,7 +28,6 @@ const educationList = [
     schoolLogo: images.jamia,
     schoolName: "Jamia Millia Islamia | New Delhi",
     course: "Bachlor of Technology | 2017-2021",
-    result: "9.38 CGPA",
     background: "#ecfbec",
     circleColor: "#4bc94b",
   },
@@ -39,7 +35,6 @@ const educationList = [
     schoolLogo: images.jamia,
     schoolName: "Jamia Senior Secondary School | New Delhi",
     course: "Intermediate | 2013-2015",
-    result: "67.2 %",
     background: "#f4f4ff",
     circleColor: "#6971cf",
   },
@@ -47,7 +42,6 @@ const educationList = [
     schoolLogo: images.xaviers,
     schoolName: "St. Xaviers Jr/Sr School | Muzaffarpur, Bihar",
     course: "Matric | 2011-2013",
-    result: "10 CGPA",
     background: "#fff7f7",
     circleColor: "#ff5f5f",
   },
@@ -83,7 +77,6 @@ const Experience = () => {
               >
                 <h4 className="bold-text">{education.schoolName}</h4>
                 <p className="p-text">{education.course}</p>
-                <p className="p-text">{education.result}</p>
               </motion.div>
             </div>
           ))}
@@ -101,9 +94,11 @@ const Experience = () => {
               <h4 className="bold-text">{experience.company}</h4>
               <p className="p-text">{experience.title}</p>
               <ul>
-                <li className="p-text">{experience.descLine1}</li>
-                <li className="p-text">{experience.descLine2}</li>
-                <li className="p-text">{experience.descLine3}</li>
+                {experience.descriptions.map((description, index) => (
+                  <li key={index} className="p-text">
+                    {description}
+                  </li>
+                ))}
               </ul>
             </motion.div>
           ))}
