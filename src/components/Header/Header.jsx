@@ -44,18 +44,18 @@ const Header = () => {
               <p className="p-text">
                 <span>Personality: </span>Normal
               </p>
-              <p className="p-text">
+              <p className="p-text" style={{ marginBottom: "8px" }}>
                 <span>Caste: </span>Shaikh
-              </p>
-              <p className="p-text">
-                <span>Bengaluru Residential Address: </span>Door No-16, 4th
-                Cross, Near HAL Main Gate, Annasandrapalya Extension,
-                Vimanapura, Bengaluru, Karnataka - 560017.
               </p>
               <p className="p-text">
                 <span>Delhi Residential Address: </span>C-13, Nooh Apartment,
                 Flat No B-201, 2nd Floor, Opposite Nooh Masjid, Jogabai Extn.,
                 Jamia Nagar, New Delhi - 110025.
+              </p>
+              <p className="p-text">
+                <span>Bengaluru Residential Address: </span>Door No-16, 4th
+                Cross, Near HAL Main Gate, Annasandrapalya Extension,
+                Vimanapura, Bengaluru, Karnataka - 560017.
               </p>
             </div>
           </div>
