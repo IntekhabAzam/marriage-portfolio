@@ -1,3 +1,5 @@
+import profile from '../assets/profile.png';
+
 import email from '../assets/email.png';
 import linkedin from '../assets/linkedin.png';
 import whatsapp from '../assets/whatsapp.png';
@@ -10,6 +12,7 @@ import header from '../assets/header.png'
 
 
 export default {
+  profile,
   email,
   circle,
   linkedin,
