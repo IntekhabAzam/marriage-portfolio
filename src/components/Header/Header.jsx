@@ -27,7 +27,7 @@ const Header = () => {
             <div className="tag-cmp">
               <p className="p-text">
                 I am currently working as a Software Engineer I - UI in Flipkart
-                and having more than 3 years of experience in this domain.
+                and having more than 4 years of experience in this domain.
               </p>
               <p className="p-text">
                 I continuously work on integrating Islamic teachings and values
@@ -59,9 +59,7 @@ const Header = () => {
                   Jamia Nagar, New Delhi - 110025.
                 </p>
                 <p className="p-text">
-                  <span>Bengaluru Residential Address: </span>Door No-16, 4th
-                  Cross, Near HAL Main Gate, Annasandrapalya Extension,
-                  Vimanapura, Bengaluru, Karnataka - 560017.
+                  <span>Permanent Residential Address: </span>Vill - Balasath, Dist - Sitamarhi, Bihar - 843326.
                 </p>
               </div>
             </div>

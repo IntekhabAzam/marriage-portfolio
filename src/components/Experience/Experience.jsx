@@ -10,8 +10,8 @@ const experienceList = [
     company: "Flipkart",
     title: "Software Engineer I - UI | April, 2023 - Present",
     descriptions: [
-      "Currently working in the Machine Learning Platform team to build a UI platform aimed at showcasing their products and services.",
-      "Previously, I worked with different teams at Flipkart, focusing on enhancing fintech services through the addition of new features to mobile and web applications.",
+      "Currently working in the Machine Learning Platform team to help create UI platform that support business functions.",
+      "Previously, I worked with different teams at Flipkart, focusing on enhancing fintech services on mobile and web applications.",
     ],
   },
   {

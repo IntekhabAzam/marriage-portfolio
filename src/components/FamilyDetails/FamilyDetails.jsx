@@ -8,7 +8,7 @@ const mamuList = [
   {
     name: "Fakhre Mateen",
     education: "B.Tech in Civil Engineering, Jami Millia Islamia, New Delhi.",
-    Profession: "Senior Project Engineer, currently working in Mumbai.",
+    Profession: "Senior Project Engineer, currently working in SBUT project Mumbai.",
   },
   {
     name: "Fakhre Mubeen",
@@ -42,9 +42,9 @@ const parents = [
   {
     name: "Mohd Ehteshamul Haque (Juhi)",
     relationship: "Abbu",
-    education: "Gradutated from L.S. Collage, Muzaffarpur.",
+    education: "Graduated from L.S. Collage, Muzaffarpur.",
     Profession:
-      "Working in MNC IT company TT Global India Branch - Taj Computer Solution pvt ltd, N.Delhi.",
+      "Holding a managerial position in MNC TT Global (India Branch) – Taj Computer Solution Pvt. Ltd., New Delhi.",
   },
   {
     name: "Nikhat Parween",
@@ -71,7 +71,7 @@ const Skills = () => {
                 <span>Dada: </span>Mohd Anwarul Haque
               </h4>
               <p className="p-text">
-                <span>Address: </span>Vill-Balasath, Dist-Sitamarhi, Bihar
+                <span>Address: </span>Vill - Balasath, Dist - Sitamarhi, Bihar.
               </p>
             </div>
             <div className="child-member-card">
@@ -141,7 +141,7 @@ const Skills = () => {
                 Samastipur division.
               </p>
               <p className="p-text">
-                <span>Address: </span>Vill-Madhuban, Bajpatti, Sitmarhi, Bihar.
+                <span>Address: </span>Vill - Madhuban, Bajpatti, Sitmarhi, Bihar.
               </p>
             </div>
             <div className="child-member-card">
