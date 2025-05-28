@@ -42,7 +42,7 @@ const Header = () => {
                   <span>DOB: </span>07-05-1997
                 </p>
                 <p className="p-text">
-                  <span>Height: </span>5'6"
+                  <span>Height: </span>5'6" (Barefoot)
                 </p>
                 <p className="p-text">
                   <span>Complexion: </span>Wheatish
@@ -54,9 +54,7 @@ const Header = () => {
                   <span>Caste: </span>Shaikh
                 </p>
                 <p className="p-text">
-                  <span>Delhi Residential Address: </span>C-13, Nooh Apartment,
-                  Flat No B-201, 2nd Floor, Opposite Nooh Masjid, Jogabai Extn.,
-                  Jamia Nagar, New Delhi - 110025.
+                  <span>Delhi Residential Address: </span>Nooh Apartment, Opposite Nooh Masjid, Jogabai Extn., Jamia Nagar, New Delhi - 110025.
                 </p>
                 <p className="p-text">
                   <span>Permanent Residential Address: </span>Vill - Balasath, Dist - Sitamarhi, Bihar - 843326.
